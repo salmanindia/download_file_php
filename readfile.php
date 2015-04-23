@@ -1,5 +1,6 @@
 <?php
 // Forcing a download using readfile()
+
 $file = 'monkey.gif';
 
 if (file_exists($file)) {
