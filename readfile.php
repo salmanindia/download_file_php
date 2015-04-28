@@ -33,7 +33,6 @@ if(is_file($file_name)) {
 
 	// required for IE
 	if(ini_get('zlib.output_compression')) { ini_set('zlib.output_compression', 'Off');	}
-
 	// get the file mime type using the file extension
 	switch(strtolower(substr(strrchr($file_name, '.'), 1))) {
 		case 'pdf': $mime = 'application/pdf'; break;
